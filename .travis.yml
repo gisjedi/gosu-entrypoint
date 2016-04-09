@@ -7,7 +7,6 @@ deploy:
     secure: burAEtiIWkacAac8OQpn1nCRpz8+EB/XyE/mJceCBqk1nb8zJNMr1rMFCh3fOzht9YyNm4eO9R2mjxT9d4xHVnobG7SJqOz/ytqeWS2NMZswIZY8s5irPUDB4T6e5NaDKvYrFrY8kaepFWiFCbKa/fUY12lNEjgLWmpnIIrkWxrL3X1ElG+AcDKzLzKT/4gKrGL8FY29puvpg4d4V0Rlkq0Dg9HiplgCwr+NmcSS8lH7hQQXwwlmzbqLZEsF7NBELNiE9oxjOwnxefXHYyDCLVBU1eDCi/9HC5wngo7bF9KBDY6tnx7CFuImp+l1wkGo+jCFeDT8f7kqJk1tqW1O9Kiyj+AN31vQQFpBlmp76q6u5PohkJ+qqGTgNRoQDw3XF5PrSFmDQuoM0h4glFw3RE8dLkpmioRdqmXTM5DGsMNDjSXLmdpmcFeW/OwsJLUNg9prJa0jefkz5jJtJ0jZPZT9VyXrPleShpaDFmvcY1DsmmYwPZ+in0n1NuSFCifTWJmVDwXsLZc31bc6+aNzWlxeTEI6wlV1l75+kmqmsaOXr6f2BUgblU+N0LMeopBWQfjmOcWdU7EfPsm8+CBAZwfy48W8RYCW/SDrjJXPidITVu7SV58JHyoMJusKb+DzeXahq2KvAe7HGXhV30ekl81Roa8detzi6rQN1DFUgNg=
   file:
   - "gosu-entrypoint.sh"
-  - "gosu-entrypoint.md5"
   skip_cleanup: true
   on:
     tags: true

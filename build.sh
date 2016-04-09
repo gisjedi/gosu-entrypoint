@@ -6,5 +6,3 @@ if [ -n "$1" ]; then
     sed -i "s/master/$1/g" gosu-entrypoint.sh
 fi
 
-md5 -q gosu-entrypoint.sh > gosu-entrypoint.md5
-
